@@ -1,3 +1,6 @@
+/*styles for my resume */
+
+/*everything seen on page*/
 BODY{
 font-family: 'Open Sans', arial, sans-serif;
 font-size: 1em;
@@ -5,6 +8,7 @@ color: #444;
 font-weight:400;
 }
 
+/* my name at the top*/
 h1{
   font-size: 3em;
   text-transform: uppercase;
@@ -12,12 +16,14 @@ h1{
   color: #33485e
 }
 
+/* my occupation */
 strong{
-  color:#33485e
   text-transform: uppercase;
   font-size: 1.5em;
+  color:#33485e
 }
 
+/* different headings with a colored background */
 h2{
   font-size:1.5em;
   background-color: #33485e;
@@ -25,19 +31,23 @@ h2{
   color:white;
 }
 
+/* job titles */
 h3{
   font-weight:660;
   font-size: 2em;
 }
 
+/*places of work*/
 h4{
   font-size: 1.5em;
 }
 
+/* dates worked at each place*/
 h5{
   font-style: italic;
 }
 
+/*all the bulleted lists*/
 ul{
   font-size: 1.5em;
 }
