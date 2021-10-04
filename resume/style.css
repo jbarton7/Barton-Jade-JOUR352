@@ -8,12 +8,22 @@ color: #444;
 font-weight:400;
 }
 
+#container{
+  width:100%;
+  max-width:1200px;
+  margin:0 auto; 
+}
 /* my name at the top*/
-h1{
+#name{
   font-size: 3em;
   text-transform: uppercase;
   text-align:center;
-  color: #33485e
+  color: #33485e;
+  border-bottom: 2px solid #33485e;
+  width: 60%;
+  min-width: 300px;
+  margin:0 auto;
+
 }
 
 /* my occupation */
@@ -24,11 +34,14 @@ strong{
 }
 
 /* different headings with a colored background */
-h2{
+.sectionheader{
   font-size:1.5em;
   background-color: #33485e;
   text-transform: uppercase;
   color:white;
+  margin:10 0 20 0;
+  width:70%;
+  min-width: 300px;
 }
 
 /* job titles */
