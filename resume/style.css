@@ -11,7 +11,7 @@ font-weight:400;
 #container{
   width:100%;
   max-width:1200px;
-  margin:0 auto; 
+  margin:0 auto;
 }
 /* my name at the top*/
 #name{
@@ -23,14 +23,23 @@ font-weight:400;
   width: 60%;
   min-width: 300px;
   margin:0 auto;
-
 }
 
 /* my occupation */
-strong{
+#title{
   text-transform: uppercase;
   font-size: 1.5em;
-  color:#33485e
+  color:#33485e;
+  font-weight:600;
+  margin: 20 0 0 0;
+  text-align: center;
+}
+
+.menu{
+  margin:0 0 0 0;
+  padding:0 0 0 0;
+  text-align: center;
+  display:inline;
 }
 
 /* different headings with a colored background */
@@ -39,28 +48,49 @@ strong{
   background-color: #33485e;
   text-transform: uppercase;
   color:white;
-  margin:10 0 20 0;
+  margin:20 0 10 0;
   width:70%;
   min-width: 300px;
 }
 
 /* job titles */
-h3{
+.jobtitle{
   font-weight:660;
   font-size: 2em;
 }
 
 /*places of work*/
-h4{
+.organization{
   font-size: 1.5em;
 }
 
 /* dates worked at each place*/
-h5{
+.date{
   font-style: italic;
+  margin-top: 3px;
+}
+
+.description{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#degrees{
+  margin-top: 5px;
+}
+
+#do{
+  margin-top: 5px;
 }
 
 /*all the bulleted lists*/
 ul{
-  font-size: 1.5em;
+  font-size: 1em;
+}
+
+.top{
+  margin:0 auto;
+  width:60%
+  min-width: 300px;
+  margin-bottom: 30px;
 }
