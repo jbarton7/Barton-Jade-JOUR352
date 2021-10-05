@@ -10,8 +10,9 @@ font-weight:400;
 
 #container{
   width:100%;
-  max-width:1200px;
+   max-width:1200px;
   margin:0 auto;
+  padding-bottom: 50px;
 }
 /* my name at the top*/
 #name{
@@ -31,15 +32,19 @@ font-weight:400;
   font-size: 1.5em;
   color:#33485e;
   font-weight:600;
-  margin: 20 0 0 0;
+  margin-top: 20px;
   text-align: center;
 }
 
+/*contact info at the top */
 .menu{
-  margin:0 0 0 0;
-  padding:0 0 0 0;
+  padding: 0px 0px 0px 0px;
+  margin:0px 0px 0px 0px;
   text-align: center;
-  display:inline;
+}
+/*individula list items for contact info*/
+.menu li{
+  display: inline;
 }
 
 /* different headings with a colored background */
@@ -48,14 +53,15 @@ font-weight:400;
   background-color: #33485e;
   text-transform: uppercase;
   color:white;
-  margin:20 0 10 0;
+  margin-bottom:10px;
+  margin-top: 20px;
   width:70%;
   min-width: 300px;
 }
 
 /* job titles */
 .jobtitle{
-  font-weight:660;
+  font-weight:600;
   font-size: 2em;
 }
 
@@ -70,27 +76,28 @@ font-weight:400;
   margin-top: 3px;
 }
 
+/*everything with a paragraph*/
 .description{
   margin-top: 10px;
   margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
+/*education lost */
 #degrees{
   margin-top: 5px;
 }
 
+/*skills list*/
 #do{
   margin-top: 5px;
 }
 
-/*all the bulleted lists*/
-ul{
-  font-size: 1em;
-}
-
+/* mission staement at the top*/
 .top{
-  margin:0 auto;
-  width:60%
+  width:60%;
   min-width: 300px;
+  margin: 0 auto;
   margin-bottom: 30px;
 }
