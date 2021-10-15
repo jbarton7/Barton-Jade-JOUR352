@@ -1,0 +1,28 @@
+
+#content {
+  margin: 0 auto;
+  width: 900px;
+  font-family: Georgia,serif;
+  font-size: 13px;
+}
+
+#masthead{
+  margin: 0 auto;
+  font-size: 4.5em;
+  font-family: 'Playfair Display SC', serif;
+  height: 300px;
+  width: 100%;
+}
+
+h1{
+  font-size: 2em;
+  font-family: Helvetica, sans-serif;
+  font-style:italic;
+}
+
+
+#byline {
+font-family: Helvetica, sans-serif;
+font-size: 14px;
+font-style: italic;
+}
