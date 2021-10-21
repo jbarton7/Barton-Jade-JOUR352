@@ -1,12 +1,20 @@
 
 #masthead{
 text-align:center;
-font-size: 5.5em;
 font-family: 'Montserrat', sans-serif;
 height: 200px;
 padding-top: 75px;
-color:#3984B2;
 border-bottom: 3px solid #576C79;
+color:#3984B2;
+font-size: 5.5em;
+}
+
+.main{
+
+}
+
+.description{
+font-style: italic;
 }
 
 /*default style for body text*/
