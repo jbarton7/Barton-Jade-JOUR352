@@ -1,20 +1,22 @@
 
-#masthead{
+.masthead{
 text-align:center;
 font-family: 'Montserrat', sans-serif;
 height: 200px;
-padding-top: 75px;
-border-bottom: 3px solid #576C79;
+padding-top: 70px;
+border-bottom: 2.5px solid #3984B2;
 color:#3984B2;
 font-size: 5.5em;
 }
 
-.main{
-
-}
-
-.description{
-font-style: italic;
+#annoy{
+padding-top:10px;
+color:#576C79;
+font-size: 20px;
+font-style:italic;
+padding-bottom: 15px;
+margin-bottom: 10px;
+font-weight: 100;
 }
 
 /*default style for body text*/
@@ -39,6 +41,7 @@ h1{
   font-family: 'Noto Serif', serif;
   font-size: 3em;
   font-weight: bold;
+  padding-top:10px;
 }
 
 h3{
@@ -52,10 +55,11 @@ h3{
 }
 
 .subhead{
-font-size: 1.75em;
+font-size: 2em;
 font-weight: bold;
 padding-top: 10px;
 color: #2B4D62;
+font-family: Georgia,serif;
 }
 
 img {
@@ -73,19 +77,21 @@ img {
 }
 
 blockquote {
-  font: normal helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-style:italic;
+  font-weight: 1500;
   margin-top: 50px;
   margin-bottom: 50px;
   color: #3984B2;
   margin-left: :50px;
   padding-left: 15px;
-  border-left: 4px solid #ccc;
+  border-left: 3px solid #ccc;
   font-size: 4em;
 }
 
 /*style for related links section */
 .links{
+  font-family: 'Noto Serif', serif;
   padding-bottom: 25px;
   font-weight:bold;
   font-size: 14px;
