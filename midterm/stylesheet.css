@@ -7,6 +7,7 @@ padding-top: 70px;
 border-bottom: 2.5px solid #3984B2;
 color:#3984B2;
 font-size: 5.5em;
+width: 100%;
 }
 
 #annoy{
@@ -17,6 +18,7 @@ font-style:italic;
 padding-bottom: 15px;
 margin-bottom: 10px;
 font-weight: 100;
+width:100%;
 }
 
 /*default style for body text*/
