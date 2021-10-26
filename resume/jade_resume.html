@@ -26,6 +26,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,600;0,700;1,500&display=swap" rel="stylesheet">
 
+
   <title> Jade Barton's Resume </title>
 
 
@@ -33,14 +34,17 @@
 
 <body>
 <!--Navbar begin-->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Jade Barton</a>
+          </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#Bio">About</a>
+            <a class="nav-link" href="#bio">About</a>
           </li>
 
           <li class="nav-item">
@@ -69,13 +73,13 @@
 
 
 <!---about section start -->
-  <div id="name" "Bio"> Jade Barton </div>
+  <div id= "bio" class="name"> Jade Barton </div>
   <div class="row">
     <div class="col-4">
         <img id="profile"src="images/face.jpg" alt="profile pic"/>
     </div>
-    <div class="col-8">
-        <p>I am currently a junior undergraduate student at the University of Maryland. I am a Governemnt and Politicas and Journalism double major with a minor in International Development and Conflict Management.</p>
+    <div id ="description"class="col-8">
+        <p>Jade is currently a junior undergraduate student at the University of Maryland. She grew up in Portsmouth, NH. Jade has an internship in the Office of International Freedom at the State Department in Spring 2021. She plans on continuing her education in law school after graduating in 2023. Jade enjoys hiking, sewing, and live music in her free time.</p>
     </div>
   </div>
 </div>
@@ -88,36 +92,43 @@
       <img id="logo"src="images/logo.png" alt="logo pic"/>
     </div>
     <div class="col">
-        <p class="degree">Bachelor of Arts, Journalism, University of Maryland, 2023</p>
+      <ul>
+        <p class="grad">Bachelor of Arts, Journalism, University of Maryland, 2023</p>
+        <li class="item">GPA- 3.746/4.0 second semester sophomore year</li>
+        <li class="item">Double Major Journalism and Government and Politics  with a concentration in International Relations</li>
+        <li class="item"> Minor in Conflict Management and International Development</li>
+        <li class="item">Dean’s List of Outstanding Students: 	Spring 2020, Fall 2020, Spring 2021</li>
+      </ul>
     </div>
   </div>
 </div>
 <!--education end-->
 
 <!--link to stories start-->
-<div class="row row-cols-1 row-cols-md-2 g-4" id="cards">
+<div class="row row-cols-1 row-cols-md-2 g-4"id="cards">
+
   <div class="col">
     <div class="card">
-      <img src="images/mitzpeh.jpg" alt="mitzpeh logo" class="card-img-top">
+        <img src="images/mitzpeh.jpg" alt="mitzpeh logo" class="card-img-top mitzpeh">
       <div class="card-body">
-        <h5 class="card-title">"Sacha Baron Cohen makes political strides
-          "</h5>
+        <h5 class="card-title">"Sacha Baron Cohen makes political strides"</h5>
         <p class="card-text">December 7, 2020</p>
         <a href="http://umdmitzpeh.com/2020/12/07/sacha-baron-cohen-speaks-out-publicly-and-politically/" class="btn btn-primary" target="_blank">Read</a>
       </div>
     </div>
   </div>
+
   <div class="col">
     <div class="card">
-      <img src="images/sbs.jpg"  class="card-img-top" alt="sbs logo">
+      <img src="images/sbs.jpg"  class="card-img-top sbs" alt="sbs logo">
       <div class="card-body">
-        <h5 class="card-title">"Virtual read-a-thon teaches new definitions of Black joy
-          "</h5>
+        <h5 class="card-title">"Virtual read-a-thon teaches new definitions of Black joy"</h5>
         <p class="card-text">Febuary 26, 2021</p>
         <a href="https://umdsbs.wordpress.com/2021/02/26/virtual-read-a-thon-teaches-new-definitions-of-black-joy/" class="btn btn-primary" target="_blank">Read</a>
       </div>
     </div>
   </div>
+
 </div>
 <!--link to stories end-->
 
@@ -125,75 +136,124 @@
 <div class="experience">
   <div class="row">
     <div class="col">
+      <img src="images/avanti.jpg" alt="avanti logo" class="work-logo">
       <h3>Host and Busser</h3>
       <h4 >Avanti Food & Beverage</h4>
+      <h6>Boulder, CO </h6>
       <h5 >April 2021-August 2021</h5>
-      <p >I showed people to their tables and introduced them to the restaurant. Dealt with customer service issues and ensured every guest had a smooth stay. Bussed tables and ran drinks when needed.</p>
+      <p class="work-item">Showed people to their tables and introduced them to the restaurant</p>
+      <p class="work-item">Dealt with customer service issues and ensured every guest had a smooth stay</p>
+      <p class="work-item">Bussed tables and ran drinks when needed</p>
+      <p class="work-item">Helped organize events and ensure they were sucessful</p>
 
     </div>
     <div class="col">
+      <img src="images/fatface.jpg" alt="fatface logo" class="work-logo">
       <h3>Supervisor</h3>
-      <h4>FatFace Portsmouth<h4>
-      <h5>June 2018-January 2021<h5>
-      <p>I engaged with customers, organized inventory and shipments, operated a register (checkouts, returns, and exchanges), merchandised the store, and would open and close.</p>
+      <h4>FatFace</h4>
+      <h6>Portsmouth, NH </h6>
+      <h5>June 2018-January 2021</h5>
+      <p class="work-item">Engaged with customers</p>
+      <p class="work-item">Organized inventory and shipments</p>
+      <p class="work-item">Operated a register, perfomed checkouts, returns, and exchanges</p>
+      <p class="work-item">Merchandised the store</p>
+      <p class="work-item">Opened and closed the store</p>
 
     </div>
+  </div>
+  <div class="row">
     <div class="col">
+      <img src="images/row.jpg" alt="row 34 logo" class="work-logo">
       <h3>Busser</h3>
-      <h4>Row 34, Portsmouth NH</h4>
+      <h4>Row 34</h4>
+      <h6>Portsmouth, NH</h6>
       <h5>October 2016-November 2017</h5>
-      <p>I bussed tables, ran food, periodically dish-washed, and attended to the needs of both customers and servers.</p>
-
+      <p class="work-item">Bussed tables</p>
+      <p class="work-item">Ran food</p>
+      <p class="work-item">Periodically dishwashed</p>
+      <p class="work-item">Attended to the needs of both customers and servers</p>
     </div>
+
     <div class="col">
+            <img src="images/bn.jpg" alt="bn americas logo" class="work-logo">
             <h3>Intern</h3>
-            <h4>Business News Americas, Santiago, Chile</h4>
+            <h4>Business News Americas</h4>
+            <h6> Santiago, Chile</h6>
             <h5>August 2017</h5>
-            <p>I worked in a bilingual sales environment and contributed to departments including marketing, sales, and research—edited corporate presentations in both English and Spanish. Conducted sales outreach to prospects in South America and the U.S. Conducted market research to inform corporate website redesign.</p>
+            <p class="work-item">Worked in a bilingual sales environment</p>
+            <p class="work-item">Contributed to departments including marketing, sales, and research</p>
+            <p class="work-item">Edited corporate presentations in both English and Spanish</p>
+            <p class="work-item">Conducted sales outreach to prospects in South America and the U.S.</p>
+            <p class="work-item">Conducted market research to inform corporate website redesign.</p>
     </div>
   </div>
 </div>
 <!--experience end-->
 
 <!--skills start-->
-
-
+<div class="skills" id="sec3">
+  <div class="container">
+    <div class="row" id="skill-header">
+      <div class="col">
+        Skills
+      </div>
+    </div>
+    <div class="row">
+      <div class="col skill-item">
+        Photo editing with Adobe Lightroom
+      </div>
+      <div class="col skill-item">
+        Data analysis with Excel
+      </div>
+      <div class="col skill-item">
+        CPR and Red Cross certified
+      </div>
+    </div>
+    <div class="row">
+      <div class="col skill-item">
+        Public Speaking
+      </div>
+      <div class="col skill-item">
+        Costumer Service
+      </div>
+      <div class="col skill-item">
+        Leadership Experience
+      </div>
+    </div>
+  </div>
 <!--skills end-->
 
 <!--contact details start-->
 <div class="contact" id="sec4">
   <div class="row">
     <div class="col">
-    <a href="https://www.linkedin.com/in/jade-barton-2327b3162/" target="_blank"><i class="bi bi-linkedin"></i></a>
+      <a href="https://www.linkedin.com/in/jade-barton-2327b3162/" target="_blank"><i class="bi hi bi-linkedin"></i></a>
     </div>
     <div class="col">
-      <a href="https://github.com/jbarton7" target="_blank"><i class="bi bi-github"></i></a>
+      <a href="https://github.com/jbarton7" target="_blank"><i class="bi hi bi-github"></i></a>
     </div>
     <div class="col">
-      <a href="https://twitter.com/jadecbarton7" target="_blank"><i class="bi bi-twitter"></i></a>
+      <a href="https://twitter.com/jadecbarton7" target="_blank"><i class="bi hi bi-twitter"></i></a>
     </div>
     <div class="col">
-      <i class="bi bi-envelope-fill"></i>
-
+      <a href="mailto:jbarton6@umd.edu" target="_blank"><i class="bi bi-envelope-fill"></i></a>
     </div>
   </div>
 </div>
 
 <!--contact details end-->
-    <div id="title"><br>Journalist</div>
 
+<!--foooter-->
+<footer class="footer mt-auto py-3" id="footer">
 
+ <div class="container footer">
 
+   <span>&copy Jade Barton 2021</span>
 
+ </div>
 
+</footer>
 
-
-  <div class= "sectionheader">Skills:</div>
-    <ul id="do">
-      <li>Photo editing with Adobe Lightroom</li>
-      <li>Data analysis with Excel</li>
-      <li>CPR and Red Cross certified</li>
-    </ul>
 </div>
 </body>
 </html>

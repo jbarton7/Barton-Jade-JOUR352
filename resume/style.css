@@ -3,6 +3,20 @@
   text-align:center;
 }
 
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  color: #595959;
+  font-weight:400;
+  }
+
+#container{
+  width:100%;
+  max-width: 1000px;
+  margin:0 auto;
+  padding-bottom: 50px;
+  }
+
 /*navbar styles*/
 .nav-item{
   font-family: 'Montserrat', sans-serif;
@@ -19,18 +33,30 @@
   max-height:500px;
 }
 
+/*bio styles */
 #profile{
   max-width:100%;
-  max-height:150px;
+  max-height:175px;
+  padding-bottom: 10px;
+}
+.name{
+  font-size: 4em;
+  font-weight: 600;
+  text-align:center;
+  color: #D0E5F2;
+  margin:0 auto;
+  padding-top: 50px;
+  padding-bottom: 35px;
+}
+
+#description{
+  padding-top: 20px;
 }
 
 /*education section styles*/
 .education{
   margin: 0 auto;
   background-color: #485F73;
-}
-
-.degree{
   color:#D0E5F2;
   padding-top: 150px;
   padding-bottom:150px;
@@ -38,10 +64,20 @@
 
 #logo{
   width:100%;
-  max-width:350px;
-  padding-top: 150px;
-  padding-bottom:150px;
-  padding-left: 75px;
+  max-width:325px;
+}
+
+.grad{
+  font-size: 1.35em;
+  font-weight: 600;
+  padding-bottom: 30px;
+  text-align: left;
+}
+
+.item{
+  text-align: left;
+  padding-bottom: 19px;
+  font-size: 1em;
 }
 
 /*style for stories */
@@ -53,8 +89,17 @@
 }
 .card-img-top{
   width:100%;
-  max-width:150px;
-  max-height: 150px;
+  max-width:250px;
+  max-height: 200px;
+}
+
+.sbs{
+  padding-bottom: 24px;
+  margin:0 auto;
+}
+
+.mitzpeh{
+  margin:0 auto;
 }
 
 .btn-primary{
@@ -66,111 +111,78 @@
 /*style for experience*/
 .experience{
   background-color: #D0E5F2;
+  margin:0 auto;
+  padding-left: 10px;
+  padding-right: 10px
+}
+
+h3{
+  font-weight:600;
+  color:#485F73;
+}
+
+h4{
+  font-style: italic;
+  color:#485F73;
+}
+
+h5{
+color:#485F73;
+font-size: 1em;
+padding-bottom: 20px;
+}
+
+h6{
+color:#485F73;
+font-weight: 100;
+}
+
+.work-logo{
+  width:100%;
+  max-height:175px;
+  max-width:200px;
+}
+
+.work-item{
+  padding-bottom: 15px;
+  text-align: center;
+  font-weight: 100;
+}
+/*style for skills*/
+.skills{
+  background-color: #595959;
+  color: #F2F0F0;
+}
+
+#skill-header{
+  padding-top:20px;
+  padding-bottom: 25px;
+  line-height: 120%;
+  font-size: 5em;
+}
+
+.skill-item{
+  padding-bottom: 30px;
 }
 
 /*style for contact*/
 .contact{
+  padding-top: 25px;
+  padding-bottom: 15px;
   background-color: #0D0D0D
 }
 
 .bi{
   color:#D0E5F2;
-  height:20px;
-  width:20px;
-
+  font-size: 3.5em;
 }
 
-body{
-font-family: 'Montserrat', sans-serif;
-font-size: 1em;
-color: #444;
-font-weight:400;
-}
-
-#container{
-  width:100%;
-  max-width: 1000px;
-  margin:0 auto;
-  padding-bottom: 50px;
-}
-/* my name at the top*/
-#name{
-  font-size: 2.5em;
-  text-align:center;
-  color: #D0E5F2;
-  margin:0 auto;
-  padding-top: 50px;
-  padding-bottom: 35px;
-}
-
-/* my occupation */
-#title{
-  text-transform: uppercase;
-  font-size: 1.5em;
-  color:#33485e;
-  font-weight:600;
-  margin-top: 20px;
+/*footer*/
+.footer{
+  font-size: .4em;
   text-align: center;
 }
 
-/*contact info at the top */
-.menu{
-  padding: 0px 0px 0px 0px;
-  margin:0px 0px 0px 0px;
-  text-align: center;
-}
-/*individula list items for contact info*/
-.menu li{
-  display: inline;
-}
-
-/* different headings with a colored background */
-.sectionheader{
-  font-size:1.5em;
-  background-color: #33485e;
-  text-transform: uppercase;
-  color:white;
-  margin-bottom:10px;
-  margin-top: 20px;
-  width:70%;
-  min-width: 300px;
-}
-
-/* job titles */
-.jobtitle{
-  font-weight:600;
-  font-size: 2em;
-}
-
-/*places of work*/
-.organization{
-  font-size: 1.5em;
-}
-
-/* dates worked at each place*/
-.date{
-  font-style: italic;
-  margin-top: 3px;
-}
-
-/*everything with a paragraph*/
-.description{
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 0px;
-  margin-right: 0px;
-}
-
-
-/*skills list*/
-#do{
-  margin-top: 5px;
-}
-
-/* mission staement at the top*/
-.top{
-  width:60%;
-  min-width: 300px;
-  margin: 0 auto;
-  margin-bottom: 30px;
+#footer{
+    background-color: #0D0D0D;
 }
