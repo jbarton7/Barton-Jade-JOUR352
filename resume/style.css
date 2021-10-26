@@ -1,8 +1,87 @@
 /*styles for my resume */
+.col{
+  text-align:center;
+}
 
-/*everything seen on page*/
-BODY{
-font-family: 'Open Sans', arial, sans-serif;
+/*navbar styles*/
+.nav-item{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-light{
+  background-color: #F2F0F0;
+}
+
+/*top image styles*/
+
+#image{
+  width:100%;
+  max-height:500px;
+}
+
+#profile{
+  max-width:100%;
+  max-height:150px;
+}
+
+/*education section styles*/
+.education{
+  margin: 0 auto;
+  background-color: #485F73;
+}
+
+.degree{
+  color:#D0E5F2;
+  padding-top: 150px;
+  padding-bottom:150px;
+}
+
+#logo{
+  width:100%;
+  max-width:350px;
+  padding-top: 150px;
+  padding-bottom:150px;
+  padding-left: 75px;
+}
+
+/*style for stories */
+#cards{
+  padding-top:100px;
+  padding-bottom:100px;
+  background-color: #D0E5F2;
+  margin:0 auto;
+}
+.card-img-top{
+  width:100%;
+  max-width:150px;
+  max-height: 150px;
+}
+
+.btn-primary{
+  background-color: #D0E5F2;
+  color:#485F73;
+  border: 0;
+}
+
+/*style for experience*/
+.experience{
+  background-color: #D0E5F2;
+}
+
+/*style for contact*/
+.contact{
+  background-color: #0D0D0D
+}
+
+.bi{
+  color:#D0E5F2;
+  height:20px;
+  width:20px;
+
+}
+
+body{
+font-family: 'Montserrat', sans-serif;
 font-size: 1em;
 color: #444;
 font-weight:400;
@@ -10,20 +89,18 @@ font-weight:400;
 
 #container{
   width:100%;
-   max-width:1200px;
+  max-width: 1000px;
   margin:0 auto;
   padding-bottom: 50px;
 }
 /* my name at the top*/
 #name{
-  font-size: 3em;
-  text-transform: uppercase;
+  font-size: 2.5em;
   text-align:center;
-  color: #33485e;
-  border-bottom: 2px solid #33485e;
-  width: 60%;
-  min-width: 300px;
+  color: #D0E5F2;
   margin:0 auto;
+  padding-top: 50px;
+  padding-bottom: 35px;
 }
 
 /* my occupation */
@@ -84,10 +161,6 @@ font-weight:400;
   margin-right: 0px;
 }
 
-/*education lost */
-#degrees{
-  margin-top: 5px;
-}
 
 /*skills list*/
 #do{

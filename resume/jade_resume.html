@@ -1,85 +1,190 @@
+<!DOCTYPE html>
+
 <html lang="en">
 
 <html>
 
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Jade Barton's Interactive Resume">
+  <meta name="author" content="Jade Barton">
+
+
+  <!-- Bootstrap CSS and JavaScript -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+  <!--costum CSS-->
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <!--font links-->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,600;0,700;1,500&display=swap" rel="stylesheet">
 
   <title> Jade Barton's Resume </title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+
 </head>
 
 <body>
-<!--I built this myself-->
+<!--Navbar begin-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <li class="nav-item">
+            <a class="nav-link" href="#Bio">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#sec1">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#cards">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sec3">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sec4">Contact</a>
+          </li>
+        </ul>
+
+      </li>
+    </div>
+  </nav>
+<!--Navbar end-->
+
+<!--banner image-->
+  <img id="image"src="images/banner.jpg" alt="GW monument"/>
 
 <div id="container">
-  <div id="name"> Jade Barton </div>
-
-  <!--
-      <img src="jaderesume.jpg" width="300px">
--->
 
 
-<!--contact details-->
-    <ul class="menu">
-      <li>jbarton6@umd.edu</li>
-      <li><a href="https://www.linkedin.com/in/jade-barton-2327b3162/" target="_blank">LinkedIn</a></li>
-      <li><a href="https://twitter.com/jadecbarton7" target="_blank">Twitter</a></li>
-      <li><a href="https://github.com/jbarton7" target="_blank">GitHub</a></li>
+<!---about section start -->
+  <div id="name" "Bio"> Jade Barton </div>
+  <div class="row">
+    <div class="col-4">
+        <img id="profile"src="images/face.jpg" alt="profile pic"/>
+    </div>
+    <div class="col-8">
+        <p>I am currently a junior undergraduate student at the University of Maryland. I am a Governemnt and Politicas and Journalism double major with a minor in International Development and Conflict Management.</p>
+    </div>
+  </div>
+</div>
+<!--about section end-->
 
-    </ul>
+<!--education start-->
+<div class="education" id="sec1">
+  <div class="row">
+    <div class="col">
+      <img id="logo"src="images/logo.png" alt="logo pic"/>
+    </div>
+    <div class="col">
+        <p class="degree">Bachelor of Arts, Journalism, University of Maryland, 2023</p>
+    </div>
+  </div>
+</div>
+<!--education end-->
 
+<!--link to stories start-->
+<div class="row row-cols-1 row-cols-md-2 g-4" id="cards">
+  <div class="col">
+    <div class="card">
+      <img src="images/mitzpeh.jpg" alt="mitzpeh logo" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">"Sacha Baron Cohen makes political strides
+          "</h5>
+        <p class="card-text">December 7, 2020</p>
+        <a href="http://umdmitzpeh.com/2020/12/07/sacha-baron-cohen-speaks-out-publicly-and-politically/" class="btn btn-primary" target="_blank">Read</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="images/sbs.jpg"  class="card-img-top" alt="sbs logo">
+      <div class="card-body">
+        <h5 class="card-title">"Virtual read-a-thon teaches new definitions of Black joy
+          "</h5>
+        <p class="card-text">Febuary 26, 2021</p>
+        <a href="https://umdsbs.wordpress.com/2021/02/26/virtual-read-a-thon-teaches-new-definitions-of-black-joy/" class="btn btn-primary" target="_blank">Read</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!--link to stories end-->
+
+<!--Experience start-->
+<div class="experience">
+  <div class="row">
+    <div class="col">
+      <h3>Host and Busser</h3>
+      <h4 >Avanti Food & Beverage</h4>
+      <h5 >April 2021-August 2021</h5>
+      <p >I showed people to their tables and introduced them to the restaurant. Dealt with customer service issues and ensured every guest had a smooth stay. Bussed tables and ran drinks when needed.</p>
+
+    </div>
+    <div class="col">
+      <h3>Supervisor</h3>
+      <h4>FatFace Portsmouth<h4>
+      <h5>June 2018-January 2021<h5>
+      <p>I engaged with customers, organized inventory and shipments, operated a register (checkouts, returns, and exchanges), merchandised the store, and would open and close.</p>
+
+    </div>
+    <div class="col">
+      <h3>Busser</h3>
+      <h4>Row 34, Portsmouth NH</h4>
+      <h5>October 2016-November 2017</h5>
+      <p>I bussed tables, ran food, periodically dish-washed, and attended to the needs of both customers and servers.</p>
+
+    </div>
+    <div class="col">
+            <h3>Intern</h3>
+            <h4>Business News Americas, Santiago, Chile</h4>
+            <h5>August 2017</h5>
+            <p>I worked in a bilingual sales environment and contributed to departments including marketing, sales, and research—edited corporate presentations in both English and Spanish. Conducted sales outreach to prospects in South America and the U.S. Conducted market research to inform corporate website redesign.</p>
+    </div>
+  </div>
+</div>
+<!--experience end-->
+
+<!--skills start-->
+
+
+<!--skills end-->
+
+<!--contact details start-->
+<div class="contact" id="sec4">
+  <div class="row">
+    <div class="col">
+    <a href="https://www.linkedin.com/in/jade-barton-2327b3162/" target="_blank"><i class="bi bi-linkedin"></i></a>
+    </div>
+    <div class="col">
+      <a href="https://github.com/jbarton7" target="_blank"><i class="bi bi-github"></i></a>
+    </div>
+    <div class="col">
+      <a href="https://twitter.com/jadecbarton7" target="_blank"><i class="bi bi-twitter"></i></a>
+    </div>
+    <div class="col">
+      <i class="bi bi-envelope-fill"></i>
+
+    </div>
+  </div>
+</div>
+
+<!--contact details end-->
     <div id="title"><br>Journalist</div>
 
 
-<!--mission statement-->
-    <p class="description top"> I am currently a junior undergraduate student at the University of Maryland. I am a Governemnt and Politicas and Journalism double major with a minor in International Development and Conflict Management.</p>
-
-      <div class="sectionheader">Experience:</div>
-
-      <div class="jobtitle">Host and Busser</div>
-      <div class="organization">Avanti Food & Beverage</div>
-      <div class="date">April 2021-August 2021</div>
-
-      <p class="description">I showed people to their tables and introduced them to the restaurant. Dealt with customer service issues and ensured every guest had a smooth stay. Bussed tables and ran drinks when needed.</p>
 
 
-      <div class="jobtitle">Freelance Writing</div>
-      <div class="organization">Stories Beneath the Shell, Mitzpeh</div>
-      <div class="date">September 2020-Present</div>
-
-      <p class="description">I have written articles for various University of Maryland on-campus publications.</p>
-
-
-      <div class="jobtitle">Supervisor</div>
-      <div class="organization">FatFace Portsmouth</div>
-      <div class="date">June 2018-January 2021</div>
-
-      <p class="description">I engaged with customers, organized inventory and shipments, operated a register (checkouts, returns, and exchanges), merchandised the store, and would open and close.</p>
-
-
-      <div class="jobtitle">Busser</div>
-      <div class="organization">Row 34, Portsmouth NH</div>
-      <div class="date">October 2016-November 2017</div>
-
-      <p class="description">I bussed tables, ran food, periodically dish-washed, and attended to the needs of both customers and servers.</p>
-
-
-      <div class="jobtitle">Intern</div>
-      <div class="organization">Business News Americas, Santiago, Chile</div>
-      <div class="date">August 2017</div>
-
-
-      <p class="description">I worked in a bilingual sales environment and contributed to departments including marketing, sales, and research—edited corporate presentations in both English and Spanish. Conducted sales outreach to prospects in South America and the U.S. Conducted market research to inform corporate website redesign.</p>
-
-
-
-
-  <div class="sectionheader">Education:</div>
-
-    <ul id= "degrees">
-      <li>Bachelor of Arts, Journalism, University of Maryland, 2023</li>
-    </ul>
 
 
 
