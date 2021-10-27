@@ -14,7 +14,6 @@ body{
   width:100%;
   max-width: 1000px;
   margin:0 auto;
-  padding-bottom: 50px;
   }
 
 /*navbar styles*/
@@ -27,7 +26,6 @@ body{
 }
 
 /*top image styles*/
-
 #image{
   width:100%;
   max-height:500px;
@@ -37,7 +35,6 @@ body{
 #profile{
   max-width:100%;
   max-height:175px;
-  padding-bottom: 10px;
 }
 .name{
   font-size: 4em;
@@ -49,7 +46,8 @@ body{
   padding-bottom: 35px;
 }
 
-#description{
+.bio{
+  padding-bottom:75px;
   padding-top: 20px;
 }
 
@@ -111,9 +109,10 @@ body{
 /*style for experience*/
 .experience{
   background-color: #D0E5F2;
+  padding-bottom: 20px;
   margin:0 auto;
-  padding-left: 10px;
-  padding-right: 10px
+  padding-left: 20px;
+  padding-right: 20px
 }
 
 h3{
@@ -167,7 +166,7 @@ font-weight: 100;
 
 /*style for contact*/
 .contact{
-  padding-top: 25px;
+  padding-top: 35px;
   padding-bottom: 15px;
   background-color: #0D0D0D
 }
