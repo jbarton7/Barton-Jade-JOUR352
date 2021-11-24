@@ -78,7 +78,7 @@ img {
   padding-bottom: 9px;
 }
 
-blockquote {
+.quote{
   font-family: 'Montserrat', sans-serif;
   font-style:italic;
   font-weight: 1500;
@@ -89,6 +89,12 @@ blockquote {
   padding-left: 15px;
   border-left: 3px solid #ccc;
   font-size: 4em;
+}
+
+.quote-attribute{
+  font-size: .5em;
+  color:black;
+  font-weight: 100;
 }
 
 /*style for related links section */
