@@ -2,6 +2,14 @@
 .nav-item{
   color:#01260A;
 }
+
+.navbar-brand{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.dropdown-menu{
+  font-family: 'Montserrat', sans-serif;
+}
 /*nav bar styles end */
 
 /* topper start*/
@@ -13,49 +21,46 @@
 
 .hero-image{
   width: 100%;
-  opacity: .85;
+  opacity: .35;
 }
 
 .overlay{
   position: absolute;
-  top: 20%;
+  top: 15%;
   width:100%;
 }
 
 .hero-hed{
-font-size: 6.5em;
-font-family: 'Noto Serif', serif;
-font-weight: 800;
-}
-
-.hero-sub{
+font-size: 7.5em;
 font-family: 'Montserrat', sans-serif;
-color:#6B0500;
-font-size:1.25em;
-font-weight: 800;
+font-weight:300;
+color:#01260A;
+
 }
 
 /* topper end*/
 
 .headline{
-  font-size:3em;
-  font-weight: 700;
-  text-align: center;
+  font-size:3.75em;
+  font-weight: 400;
+  text-align: left;
   font-family: 'Montserrat', sans-serif;
   color:#01260A;
+  padding-top: 20px;
 }
 
 .byline{
   font-size: 1em;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
-  text-align:center;
+  text-align:left;
   color:#014005;
+  font-weight: 700;
 }
 
 p{
-    font-family: 'Montserrat', sans-serif;
-    line-height: 180%;
+    font-family: 'Noto Serif', serif;
+    line-height: 200%;
 }
 
 .chapter-headline{
@@ -63,8 +68,20 @@ p{
   font-weight:600;
   font-family: 'Montserrat', sans-serif;
   color:#014005;
-
 }
+/*pull quote*/
+.quote{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 1500;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #014005;
+  margin-left: :50px;
+  padding-left: 15px;
+  border-left: 3px solid #ccc;
+  font-size: 3em;
+}
+
 
 /*graphic styles */
 .graphic{
@@ -94,22 +111,45 @@ p{
 }
 /* image styles end*/
 
+/*link coding*/
+.links{
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 25px;
+  font-weight:bold;
+  font-size: 14px;
+  padding-top: 20px;
+}
+a{
+  color: #014005;
+}
+
+a:hover{
+  color:light-grey;
+}
+
+a:visited{
+  color: black;
+}
+
 /*footer*/
-
-
 #footer{
-    background-color: #0D0D0D;
+    background-color: #01260A;
     text-align: center;
 }
 
 .footer-text{
   color: white;
+  font-family: 'Montserrat', sans-serif;
 }
+
 /*media quieries */
 
-@media(max-width: 770px) {
-    .video{
-
+@media(max-width: 675px) {
+  .hero-hed{
+    font-size:4em;
+  }
+    .headline{
+      font-size: 2em;
     }
     p{
       padding-left: 20px;
