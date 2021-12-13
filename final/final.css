@@ -35,7 +35,7 @@ font-size:1.25em;
 font-weight: 800;
 }
 
-/* topper start*/
+/* topper end*/
 
 .headline{
   font-size:3em;
@@ -66,10 +66,17 @@ p{
 
 }
 
-#caption{
+/*graphic styles */
+.graphic{
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+/* image styles start */
+.caption{
   color: grey;
   margin-top: 0px;
   padding-top: 0px;
+  font-size: .75em;
   font-style: italic;
   padding-bottom: 9px;
   text-align: left;
@@ -78,11 +85,14 @@ p{
 }
 
 .image{
-  margin: 0 auto;
-  text-align: center;
   width:100%;
-  max-width:500px;
 }
+
+#picture{
+  text-align: center;
+  max-width: 1500px;
+}
+/* image styles end*/
 
 /*footer*/
 
@@ -95,3 +105,21 @@ p{
 .footer-text{
   color: white;
 }
+/*media quieries */
+
+@media(max-width: 770px) {
+    .video{
+
+    }
+    p{
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .quote{
+      font-size: 2em;
+    }
+    .quote-attribute{
+      font-size: .5em;
+    }
+
+  }
