@@ -1,8 +1,4 @@
 /*nav bar styles start */
-.nav-item{
-  color:#01260A;
-}
-
 .navbar-brand{
   font-family: 'Montserrat', sans-serif;
 }
@@ -35,7 +31,6 @@ font-size: 7.5em;
 font-family: 'Montserrat', sans-serif;
 font-weight:300;
 color:#01260A;
-
 }
 
 /* topper end*/
@@ -146,7 +141,7 @@ a:visited{
 
 @media(max-width: 750px) {
   .hero-hed{
-    font-size:4em;
+    font-size:3em;
   }
     .headline{
       font-size: 2em;
@@ -157,9 +152,6 @@ a:visited{
     }
     .quote{
       font-size: 2em;
-    }
-    .quote-attribute{
-      font-size: .5em;
     }
 
   }
